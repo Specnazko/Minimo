@@ -4,4 +4,38 @@ footer {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+footer > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 70px;
+}
+
+.links1 > a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.links2 > p {
+    font-size: 14px;
+    color: #000000;
+    padding: 10px;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links2 > a {
+    padding: 10px;
 }
