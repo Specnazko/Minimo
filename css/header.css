@@ -13,6 +13,7 @@ header {
     position: fixed;
     background-color: #fff;
     top: 0px;
+    z-index: 1;
 }
 
 .main-logo {

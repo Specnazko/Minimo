@@ -18,6 +18,10 @@ main {
     align-items: flex-start;
 }
 
+.current-content {
+    margin: 0px 70px;
+}
+
 .article-logo {
     width: 100%;
     margin-bottom: 100px;
@@ -42,4 +46,98 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+.posts {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post {
+    width: 45%;
+}
+
+.posts_img {
+    width: 100%;
+}
+
+.article-caption a {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 45px;
+    text-decoration: none;
+}
+
+.submit {
+    width: 100%;
+    height: 287px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.submit-content {
+    width: 400px;
+    height: 143px;
+    border-bottom: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.submit-content p {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+
+.input-email {
+    width: 359px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    outline: none;
+    padding: 0 0 0 5px;
+}
+
+.input-email > ::placeholder {
+    color: #333333;
+    font-size: 14px;
+}
+
+.input-submit {
+    position: relative;
+    top: 5px;
+    background-color: Transparent;
+	background-repeat:no-repeat;
+	background-image: url("../img/buttom.png");
+	border: none;
+	cursor:pointer;
+    width: 32px;
+}
+
+.button-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.button {
+    background-color: Transparent;
+	background-repeat:no-repeat;
+    border: solid 1px #333333;
+    color: #6c6c6c;
+	cursor:pointer;
+    width: 165px;
+    height: 60px;
+    font-size: 20px;
 }
